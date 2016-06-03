@@ -2,6 +2,7 @@
 namespace Rap2hpoutre\LaravelCreditCardValidator;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
+use Inacho\CreditCard;
 
 class ServiceProvider extends BaseServiceProvider
 {
