@@ -1,4 +1,4 @@
-# Laravel Credit Cart Validator
+# Laravel Credit Card Validator
 
 [![Packagist](https://img.shields.io/packagist/v/rap2hpoutre/laravel-credit-card-validator.svg)]()
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
