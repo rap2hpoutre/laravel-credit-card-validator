@@ -1,0 +1,26 @@
+{
+    "name": "rap2hpoutre/laravel-credit-card-validator",
+    "description": "Laravel credit card validator",
+    "license": "MIT",
+    "keywords": ["validator", "laravel", "credit card"],
+    "authors": [
+        {
+            "name": "rap2hpoutre",
+            "email": "raphaelht@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "illuminate/support": "5.*",
+        "inacho/php-credit-card-validator": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rap2hpoutre\\LaravelCreditCardValidator\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
