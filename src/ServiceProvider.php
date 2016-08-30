@@ -27,7 +27,7 @@ class ServiceProvider extends BaseServiceProvider
         });
 
         \Validator::extend('cvc', function($attribute, $value, $parameters, $validator) {
-            return ctype_digit($value) && strlen($value) == 3;
+            return ctype_digit($value) && (strlen($value) == 3 || strlen($value) == 4);
         });
     }
     
