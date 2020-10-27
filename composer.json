@@ -10,8 +10,8 @@
         }
     ],
     "require": {
-        "php": ">=5.5.0",
-        "illuminate/support": "5.*",
+        "php": "^7.0",
+        "illuminate/support": "5.* || ^6.0 || ^7.0 || ^8.0",
         "inacho/php-credit-card-validator": "^1.0"
     },
     "require-dev": {
